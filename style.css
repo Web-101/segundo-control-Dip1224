@@ -49,11 +49,19 @@ body {
     gap: 40px;
     background-color: white;
     margin-top: 8px;
+}/* Agrega esto para equilibrar los tamaños en pantalla */
+.hero-image, .hero-content {
+    flex: 1; 
+    width: 50%;
 }
-.hero-Image img{
+
+/* Corrige la "I" mayúscula que tenías antes para que sea todo en minúsculas */
+.hero-image img {
     width: 100%;
     border-radius: 8px;
+    display: block;
 }
+
 .hero-content{
     display: flex;
     flex-direction: column;
