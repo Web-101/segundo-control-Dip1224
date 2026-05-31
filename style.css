@@ -9,7 +9,7 @@ body {
     background-color: whitesmoke;
 
 }
-
+/* Navbar Styles */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -39,4 +39,43 @@ body {
     border: none;
     cursor: pointer;
     font-size: 18px;
+}
+
+/* Hero styles */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 40px;
+    background-color: white;
+    margin-top: 8px;
+}
+.hero-Image img{
+    width: 100%;
+    border-radius: 8px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.hero-content h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+.hero-content p{
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.btn-primary{
+    background-color: #2ecc71;
+    color: black;
+    border: none;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    width: fit-content;
 }
